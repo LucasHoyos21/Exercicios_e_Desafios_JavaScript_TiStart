@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="module" src="cep.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="flex justify-content-center ">
+        <div id="content-titles" class="flex column center-xy">
+            <h1>ME ACHA</h1>
+            <h2>ENCONTRE UM ENDEREÇO PELO NUMERO DE CEP</h2>
+        </div>
+
+        <div  id="content-icon" class="flex center-xy">
+            <span class="material-symbols-outlined icone">
+                travel_explore
+                </span>
+        </div>
+    </header>
+    <main class="flex justify-content-center">
+        <form action="">
+            <label for="cep">CEP</label>
+            <input type="text" class="box" name="cep" id="cep" value="">   
+            <label for="">RUA</label>
+            <input type="text" class="box" name="logradouro" id="logradouro" value="">
+            <label for="">BAIRRO</label>
+            <input type="text" class="box" name="bairro" id="bairro" value="">
+            <label for="">CIDADE</label>
+            <input type="text" class="box" name="localidade" id="localidade" value="">
+            <label for="">ESTADO</label>
+            <input type="text" class="box" name="uf" id="uf" value="">
+            <input type="button" value="BUSCAR" class="btn">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
